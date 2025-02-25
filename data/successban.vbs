@@ -1,1 +1,0 @@
-msgbox"u've got successfuly banned steam kr server on mm.",0+48,"CS:GO CMD Server Picker"
