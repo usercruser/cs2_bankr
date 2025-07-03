@@ -17,3 +17,5 @@
      if exist "%temp%\getadmin.vbs" ( del "%temp%\getadmin.vbs" )
      pushd "%CD%"
      CD /D "%~dp0"
+
+cmd /c "route add 146.66.152.0 mask 255.255.255.0 0.0.0.0 metric 1"
