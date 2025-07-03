@@ -2,7 +2,7 @@
  >nul 2>&1 "%SYSTEMROOT%\system32\cacls.exe" "%SYSTEMROOT%\system32\config\system"
 
  if '%errorlevel%' NEQ '0' (
-     echo 실행하려면 관리자 권한이 필요합니다.
+     echo 관리자 권한 요구
      goto UACPrompt
  ) else ( goto gotAdmin )
 
